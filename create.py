@@ -17,7 +17,7 @@ def create_droplet(name, project_name):
                                    region="nyc1",
                                    image="ubuntu-18-04-x64",
                                    size_slug="s-1vcpu-1gb",
-                                   project=project_name)  # Add project parameter
+                                   project=project_name)  
     droplet.create()
     return droplet
 
