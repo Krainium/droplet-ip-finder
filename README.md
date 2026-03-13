@@ -66,7 +66,7 @@ Update the script to use the token:
 ```python
 token = os.getenv("DO_TOKEN")
 ```
-
+Or use the script like that with the inbiult API {NOTE: edit the API with your own to use the script directly}
 ---
 
 # 🚀 Usage
